@@ -8,12 +8,8 @@ body {
     font-family: Helvetica, Verdana, sans-serif, Tahoma, sans-serif;
 }
 
-p {
-    margin-top:10px;
-    margin-bottom: 10px;
-}
 .avatar {
-    width: 150px;
+    width: 170px;
     border: 3px solid #9B2709;
     border-radius: 5%;
     box-shadow: 4px 4px #5D0000;
