@@ -1,0 +1,92 @@
+/*
+Challenge:
+Style the app according to the provided design.
+The font is called "Happy Monkey" and can be
+embedded via Google Fonts.
+
+Don't know how to make an image round? Google it!
+Also, consider how you should select the image 
+(class vs id vs element selector).
+*/
+body {
+  font-family: 'Happy Monkey', cursive;
+  color:#fff;
+  background: #a2d2ff;
+  text-align: center;
+}
+h1, h2, h3, h4, p {
+  text-shadow: 0px 0px 1px black;
+}
+.pink-back {
+  background: #EFB0c9;
+}
+#header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#face {
+  width:150px;
+  border-radius:50%;
+  border: 6px solid #EFB0c9;
+  box-shadow: 1px -1px lightslategray;
+  margin-bottom: 10px;
+}
+#age {
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 1px -1px lightslategray;
+  margin: 5px 0 10px 0;
+}
+#date {
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 1px -1px lightslategray;
+  margin-top: 0;
+}
+.gift-section {
+  margin-top:40px;
+}
+.gift-title {
+  margin-bottom:10px;
+}
+.gift-hint {
+  margin-top:5px;
+}
+.gift-box {
+  background-image: url("images/gift-cover.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  border: 6px solid white;
+  width: 400px;
+  height:400px;
+  display:block;
+  margin: 0 auto;
+}
+#gift-happy:hover {
+  background-image: url("images/happy.gif");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#gift-hot:hover {
+  background-image: url("images/dawn-denbo.gif");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#gift-describe:hover {
+  background-image: url("images/clueless-brittany-murphy.gif");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#gift-badass:hover {
+  background-image: url("images/Yellowjackets-Linda-you-dumb-bitch_crop.gif");
+  /* background-image: url("images/badass.gif"); */
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
