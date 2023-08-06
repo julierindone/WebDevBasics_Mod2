@@ -1,13 +1,4 @@
-/*
-Challenge:
-Style the app according to the provided design.
-The font is called "Happy Monkey" and can be
-embedded via Google Fonts.
 
-Don't know how to make an image round? Google it!
-Also, consider how you should select the image 
-(class vs id vs element selector).
-*/
 body {
   font-family: 'Happy Monkey', cursive;
   color:#fff;
@@ -99,7 +90,6 @@ h1, h2, h3, h4, p {
 }
 #gift-badass:hover {
   background-image: url("images/misery.gif");
-  background-size: 450px;
   background-repeat: no-repeat;
   background-position: center;
 }
