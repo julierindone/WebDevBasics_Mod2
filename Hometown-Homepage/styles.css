@@ -1,0 +1,170 @@
+/* Colors */
+
+/* 
+#24190c - off-black (font)
+#42675e - darkest green
+#a8cdc4 - palm green
+#dcebe7 - lighter palm green (borders)
+#edf5f3 - background tint of palm green
+#822014 - roof red
+*/
+
+body {
+  font-family: 'REM', sans-serif;
+  font-size: 16px;
+  color: #24190c;
+  margin: 15px 0;
+}
+
+p {
+  margin: 4px;
+  text-align: left;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Truculenta', sans-serif;
+}
+
+#homepage-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  border-radius: 40px;
+  border: 2px dashed #dcebe7;
+  margin: auto;
+}
+
+/* #region  Hero section */
+#hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-image: url("images/long_beach_postcard_1946-full.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px 40px 0 0;
+  border-bottom: 1px solid #d2d2d2;
+  height: 310px;
+}
+
+#hero-section h1 {
+  font-size: 65px;
+  text-shadow: 0 0 5px white;
+  text-align: right;
+  margin-right: 25px;
+  margin-bottom: -5px;
+}
+
+/* #endregion */
+
+/* #region Attractions section */
+#attractions-wrapper {
+  background: #edf5f3;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dcebe7;
+
+}
+
+#attractions-wrapper h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+.attractions-row {
+  display: flex;
+  flex: 1 1 0px;
+  flex-direction: row;
+  padding: 0;
+  margin: 20px 10px;
+}
+
+.attraction img {
+  width: 130px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.attraction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.attraction p {
+  font-size: 14px;
+  text-align: center
+}
+
+p.to-do {
+  font-size: inherit;
+  font-weight: 900;
+}
+
+/* #endregion */
+
+/* #region Your Guide section */
+#about-guide {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  height: 250px;
+  background-color: #a8cdc4;
+  box-shadow: 8px 8px #42675e;
+  margin: 40px auto 45px auto;
+}
+
+.guide-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+img.guide-photo {
+  align-self: center;
+  width: 160px;
+  padding: 0;
+  margin: 0;
+}
+
+.guide-photo p {
+  font-size: 11px;
+  font-style: oblique;
+  margin: 5px 0 0 2px;
+}
+
+#bio {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  padding: 15px 15px 10px 0px;
+}
+
+#bio p {
+  text-align: center;
+  margin: 0;
+}
+
+#bio-title p {
+  font-family: 'Truculenta', sans-serif;
+  font-size: 23px;
+  font-weight: 900;
+  margin-bottom: 10px
+}
+/* #endregion */
+
+#footer {
+  background-image: url("images/long_beach_postcard_1946-bottom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90px;
+  border-radius: 0 0 40px 40px;
+  border-top: 1px solid #dcebe7;
+}
